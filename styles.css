@@ -272,7 +272,6 @@ h1 {
 .standings-section h3,
 .cross-table-section h3,
 .dresdner-mvps h3,
-.koeln-mvps h3,
 .youtube-stats h3 {
   margin: 0 0 14px;
   font-size: 18px;
@@ -430,11 +429,6 @@ h1 {
   font-weight: 900;
 }
 
-.standings-koeln-row td {
-  background: #eaf4ff;
-  font-weight: 900;
-}
-
 .standings-focusTeam-row td {
   background: #eaf4ff;
   font-weight: 900;
@@ -450,11 +444,6 @@ h1 {
 
 .standings-relegation-zone-row td {
   background: #fff7f7;
-}
-
-.standings-koeln-row.standings-relegation-zone-row td,
-.standings-koeln-row td {
-  background: #eaf4ff;
 }
 
 .standings-focusTeam-row.standings-relegation-zone-row td,
@@ -553,20 +542,10 @@ h1 {
   color: var(--muted);
 }
 
-.cross-koeln-row th,
-.cross-koeln-row td,
-.cross-koeln-col {
-  background: #eaf4ff;
-}
-
 .cross-focusTeam-row th,
 .cross-focusTeam-row td,
 .cross-focusTeam-col {
   background: #eaf4ff;
-}
-
-.cross-koeln-row .cross-koeln-col {
-  background: #d7ebff;
 }
 
 .cross-focusTeam-row .cross-focusTeam-col {
@@ -674,12 +653,6 @@ h1 {
   white-space: nowrap;
 }
 
-.koeln-mvps {
-  margin-top: 22px;
-  border-top: 1px solid var(--line);
-  padding-top: 18px;
-}
-
 .dresdner-mvps {
   margin-top: 22px;
   border-top: 1px solid var(--line);
@@ -699,14 +672,12 @@ h1 {
   font-weight: 800;
 }
 
-.koeln-mvps-list,
 .dresdner-mvps-list,
 .youtube-views-list {
   display: grid;
   gap: 10px;
 }
 
-.koeln-mvp,
 .focusTeam-mvp {
   display: grid;
   grid-template-columns: 32px minmax(0, 1fr) minmax(220px, auto) 44px;
@@ -1062,6 +1033,57 @@ h1 {
   margin-top: 0;
 }
 
+.articles-row {
+  display: grid;
+  gap: 8px;
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+}
+
+.article-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.article-chip {
+  display: flex;
+  min-height: 38px;
+  align-items: center;
+  gap: 9px;
+  border: 1px solid #bdd3ea;
+  border-radius: 6px;
+  background: #f5f9fd;
+  color: var(--blue-dark);
+  font-size: 13px;
+  font-weight: 750;
+  line-height: 1.25;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+.article-origin {
+  display: inline-flex;
+  width: 36px;
+  min-width: 36px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.article-title {
+  min-width: 0;
+}
+
+.article-chip:hover {
+  border-color: var(--blue);
+  background: #eaf4ff;
+}
+
 .media-row {
   display: none;
 }
@@ -1069,6 +1091,38 @@ h1 {
 .media-row.has-gallery {
   display: grid;
   grid-template-columns: 1fr;
+}
+
+.site-footer {
+  display: flex;
+  width: min(100% - 40px, 1180px);
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  margin: 18px auto 0;
+  padding: 20px 0 28px;
+  font-size: 13px;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer nav {
+  display: flex;
+  gap: 18px;
+}
+
+.site-footer a {
+  color: var(--blue-dark);
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
 }
 
 .card-link {
@@ -1100,6 +1154,13 @@ h1 {
   .page-shell {
     width: min(100% - 20px, 1180px);
     padding-top: 24px;
+  }
+
+  .site-footer {
+    width: calc(100% - 20px);
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .cards-grid {
@@ -1140,6 +1201,10 @@ h1 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .article-links {
+    grid-template-columns: 1fr;
+  }
+
   .section-nav {
     display: grid;
     grid-template-columns: 1fr;
@@ -1171,7 +1236,6 @@ h1 {
     text-align: left;
   }
 
-  .koeln-mvp,
   .focusTeam-mvp {
     grid-template-columns: 28px minmax(0, 1fr) 40px;
   }

@@ -119,8 +119,8 @@ Typische Anpassungen:
 
 - YouTube-Aufrufe: `youtubeViews`
 - Stichtag der YouTube-Aufrufe: `youtubeViewsDate`
-- neue/andere Links: `videoUrl`, `videoUnavailable`, `articleUrl`
-- Spieltexte: `gameSummaries`
+- neue/andere Links: `videoUrl`, `articleUrl`, `statsUrl`
+- Spieltexte: `summary` im jeweiligen Spielobjekt
 - MVPs: `mvps`
 - Logos: `teamLogoUrls`
 
@@ -137,6 +137,18 @@ git push
 Die Teamlogos, Spieldetails, Statistik-PDFs, Spielartikel und YouTube-Videos werden extern verlinkt. Bildergalerien sind derzeit nicht hinterlegt.
 
 ## Änderungshistorie
+
+### 04.07.2026
+
+- Linkstruktur analog zur veröffentlichten DSHS-Seite überarbeitet
+- für alle 28 Spiele den offiziellen SAMS-Spielbericht aus den Spieldetails separat verlinkt
+- separate VBL-Spielstatistik unter `live.volleyball-bundesliga.de/2025-26/Women/[SPIELNUMMER].pdf` ergänzt
+- vier vom VBL-Server nicht veröffentlichte Statistik-PDFs (#3209, #3193, #3187, #3203) als nicht verfügbar gekennzeichnet
+- Artikel als betitelte Links mit Herkunftskürzel dargestellt
+- Kurzberichte auf jeweils drei Sätze erweitert und um die MVP-Auszeichnungen ergänzt
+- Impressum, Datenschutz und Copyright im Footer ergänzt
+- interne Benamung von alten Köln-Bezeichnern auf neutrale `focusTeam`-Bezeichner umgestellt
+- Responsive-, Syntax- und Linkcheck durchgeführt
 
 ### 27.06.2026
 

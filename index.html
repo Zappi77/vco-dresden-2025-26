@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>VCO Dresden - Saison 2025/26</title>
-  <link rel="stylesheet" href="styles.css?v=dresden-20260627-7">
+  <link rel="stylesheet" href="styles.css?v=dresden-20260704-1">
 </head>
 <body>
   <main class="page-shell">
@@ -140,6 +140,14 @@
     </section>
   </main>
 
+  <footer class="site-footer">
+    <p>Copyright &copy; 2026 Dr. Knud Zabrocki</p>
+    <nav aria-label="Rechtliche Hinweise">
+      <a href="https://knud-zabrocki.de/impressum/">Impressum</a>
+      <a href="https://knud-zabrocki.de/datenschutz/">Datenschutz</a>
+    </nav>
+  </footer>
+
   <template id="game-card-template">
     <article class="game-card">
       <div class="card-topline">
@@ -203,9 +211,14 @@
 
       <div class="links-row">
         <a class="card-link detail-link" target="_blank" rel="noreferrer">Spieldetails</a>
+        <a class="card-link official-report-link" target="_blank" rel="noreferrer">Offizieller Spielbericht</a>
         <a class="card-link stats-link" target="_blank" rel="noreferrer">Spielstatistik</a>
-        <a class="card-link article-link disabled" target="_blank" rel="noreferrer">Artikel</a>
         <a class="card-link video-link disabled" target="_blank" rel="noreferrer">YouTube Video</a>
+      </div>
+
+      <div class="articles-row">
+        <span class="label">Artikel zum Spiel</span>
+        <div class="article-links"></div>
       </div>
 
       <div class="media-row">
@@ -214,8 +227,8 @@
     </article>
   </template>
 
-  <script src="games.js?v=dresden-20260627-7"></script>
-  <script src="cross-table.js?v=dresden-20260627-7"></script>
-  <script src="app.js?v=dresden-20260627-7"></script>
+  <script src="games.js?v=dresden-20260704-1"></script>
+  <script src="cross-table.js?v=dresden-20260704-1"></script>
+  <script src="app.js?v=dresden-20260704-1"></script>
 </body>
 </html>

@@ -634,9 +634,11 @@ const games = [
     "rankAfter": 8,
     "articleUrl": "https://www.giessener-allgemeine.de/sport/lokalsport/sieg-und-niederlage-93974740.html",
     "summary": [
-      "Dresden führte zunächst 9:3, doch Waldgirmes stabilisierte Annahme und Abwehr und holte den ersten Satz mit 25:22. Danach übernahm der VCO wieder die Kontrolle, glich mit 25:18 aus und entschied auch die beiden folgenden Sätze mit 25:22 und 25:18 zum 3:1-Auswärtssieg für sich."
+      "Dresden führte zunächst 9:3, doch Waldgirmes stabilisierte Annahme und Abwehr und holte den ersten Satz mit 25:22. Danach übernahm der VCO wieder die Kontrolle, glich mit 25:18 aus und entschied auch die beiden folgenden Sätze mit 25:22 und 25:18 zum 3:1-Auswärtssieg für sich. Die MVP-Auszeichnungen gingen an Emma Carlotta Dogu (TV Waldgirmes) und Lena Olliges (VCO Dresden)."
     ],
-    "videoUrl": "https://www.youtube.com/live/acwPxPbJXro?si=iYZ0WwHHOvlWhHb5"
+    "videoUrl": "https://www.youtube.com/live/acwPxPbJXro?si=iYZ0WwHHOvlWhHb5",
+    "articleTitle": "Sieg und Niederlage",
+    "articleOrigin": "TVW"
   },
   {
     "number": 3189,
@@ -672,10 +674,12 @@ const games = [
     "rankAfter": 9,
     "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779021406",
     "summary": [
-      "Dresden geriet im ersten Heimspiel früh mit 1:7 in Rückstand, kämpfte sich aber mit stärkerem Block und stabilerem Sideout zurück und gewann den Auftaktsatz 25:23. Danach kontrollierte der VCO den zweiten Durchgang und behielt auch im umkämpften dritten Satz die Nerven: Nach drei abgewehrten Düsseldorfer Satzbällen verwandelte Jette Hippel zum 28:26 und 3:0."
+      "Dresden geriet im ersten Heimspiel früh mit 1:7 in Rückstand, kämpfte sich aber mit stärkerem Block und stabilerem Sideout zurück und gewann den Auftaktsatz 25:23. Danach kontrollierte der VCO den zweiten Durchgang und behielt auch im umkämpften dritten Satz die Nerven: Nach drei abgewehrten Düsseldorfer Satzbällen verwandelte Jette Hippel zum 28:26 und 3:0. Die MVP-Auszeichnungen gingen an Zoe Albert (VCO Dresden) und Carlotta Strube (Eintracht Spontent Düsseldorf)."
     ],
     "videoUrl": "https://www.youtube.com/watch?v=ewv0bt6wZO4",
-    "youtubeViews": 4150
+    "youtubeViews": 4150,
+    "articleTitle": "VCO Dresden siegt 3:0 nach Achterbahnfahrt",
+    "articleOrigin": "VCO"
   },
   {
     "number": 3194,
@@ -712,10 +716,12 @@ const games = [
     "rankAfter": 10,
     "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779021483",
     "summary": [
-      "Nach einem schwachen Start und dem 18:25 im ersten Satz reagierte Dresden eindrucksvoll: Mit mehr Aufschlagdruck und mutigem Angriffsspiel dominierte der VCO den zweiten Durchgang 25:13. Vilsbiburg steigerte anschließend Feldabwehr und Angriff, ließ Dresden kaum noch Lösungen und entschied die folgenden Sätze mit 25:15 und 25:18 zum 3:1."
+      "Nach einem schwachen Start und dem 18:25 im ersten Satz reagierte Dresden eindrucksvoll: Mit mehr Aufschlagdruck und mutigem Angriffsspiel dominierte der VCO den zweiten Durchgang 25:13. Vilsbiburg steigerte anschließend Feldabwehr und Angriff, ließ Dresden kaum noch Lösungen und entschied die folgenden Sätze mit 25:15 und 25:18 zum 3:1. Die MVP-Auszeichnungen gingen an Anni Tändler (VCO Dresden) und Crystal Burk (Rote Raben Vilsbiburg)."
     ],
     "videoUrl": "https://www.youtube.com/live/DsDAhU_xwak?si=KeI8T0KR2PrN8Xxx",
-    "youtubeViews": 2006
+    "youtubeViews": 2006,
+    "articleTitle": "Niederlage gegen starke Vilsbiburger",
+    "articleOrigin": "VCO"
   },
   {
     "number": 3186,
@@ -753,10 +759,12 @@ const games = [
     "rankAfter": 10,
     "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779294785",
     "summary": [
-      "Dresden führte im ersten Satz lange, musste ihn nach einer engen Schlussphase aber 25:27 abgeben. Der VCO glich mit 27:25 aus, verlor den dritten Durchgang wiederum knapp 26:28 und erzwang mit einem klaren 25:17 den Tie-Break; dort setzte sich Planegg mit stabiler Block-Abwehr-Arbeit 15:8 durch."
+      "Dresden führte im ersten Satz lange, musste ihn nach einer engen Schlussphase aber 25:27 abgeben. Der VCO glich mit 27:25 aus, verlor den dritten Durchgang wiederum knapp 26:28 und erzwang mit einem klaren 25:17 den Tie-Break; dort setzte sich Planegg mit stabiler Block-Abwehr-Arbeit 15:8 durch. Die MVP-Auszeichnungen gingen an Lena Olliges (VCO Dresden) und Julia Ziegler (TV Planegg-Krailling)."
     ],
     "videoUrl": "https://www.youtube.com/live/doviBxEJPao?si=s3PJThvOnp9SdhaD",
-    "youtubeViews": 1438
+    "youtubeViews": 1438,
+    "articleTitle": "VCO unterliegt Planegg-Krailling mit 2:3",
+    "articleOrigin": "VCO"
   },
   {
     "number": 3195,
@@ -794,9 +802,11 @@ const games = [
     "rankAfter": 9,
     "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779286009",
     "summary": [
-      "Dingolfing gewann die ersten beiden Sätze jeweils mit 25:22. Dresden schlug mit 25:22 und 25:17 zurück und drehte anschließend auch den Tie-Break: Nach einem 6:8-Rückstand beim Seitenwechsel entschied der VCO den fünften Satz mit 15:11 und damit das Spiel mit 3:2 für sich."
+      "Dingolfing gewann die ersten beiden Sätze jeweils mit 25:22. Dresden schlug mit 25:22 und 25:17 zurück und drehte anschließend auch den Tie-Break: Nach einem 6:8-Rückstand beim Seitenwechsel entschied der VCO den fünften Satz mit 15:11 und damit das Spiel mit 3:2 für sich. Die MVP-Auszeichnungen gingen an Johanna Röhner (VCO Dresden) und Nina Herbe (TV Dingolfing)."
     ],
-    "videoUrl": "https://www.youtube.com/live/02SjsmXoQkM?si=mgD-MUOeCo_tvPFc"
+    "videoUrl": "https://www.youtube.com/live/02SjsmXoQkM?si=mgD-MUOeCo_tvPFc",
+    "articleTitle": "Nur ein Punkt aus Sachsen mitgenommen",
+    "articleOrigin": "TVD"
   },
   {
     "number": 3205,
@@ -833,10 +843,12 @@ const games = [
     ],
     "rankAfter": 9,
     "summary": [
-      "Grimma bestimmte die ersten beiden Sätze und führte nach 25:22 und 25:18 mit 2:0. Dresden steigerte sich deutlich, glich mit 25:11 und 25:16 aus, geriet im Tie-Break aber früh ins Hintertreffen; Grimma entschied ihn vor 460 Zuschauern mit 15:6."
+      "Grimma bestimmte die ersten beiden Sätze und führte nach 25:22 und 25:18 mit 2:0. Dresden steigerte sich deutlich, glich mit 25:11 und 25:16 aus, geriet im Tie-Break aber früh ins Hintertreffen; Grimma entschied ihn vor 460 Zuschauern mit 15:6. Die MVP-Auszeichnungen gingen an Sandra Seyfferth (ESA Grimma Volleys) und Jette Hippel (VCO Dresden)."
     ],
     "videoUrl": "https://www.youtube.com/live/75vU1v6kMrA?si=B6m6AR16s6L5x90S",
-    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779325732"
+    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779325732",
+    "articleTitle": "SACHSENDERBY in Grimma",
+    "articleOrigin": "EGV"
   },
   {
     "number": 3207,
@@ -871,10 +883,12 @@ const games = [
     ],
     "rankAfter": 9,
     "summary": [
-      "Dresden setzte sich in den beiden umkämpften ersten Sätzen mit 25:22 und 27:25 durch. Im dritten Durchgang blieb der VCO konsequent und vollendete mit 25:20 den 3:0-Auswärtssieg in Dortmund."
+      "Dresden setzte sich in den beiden umkämpften ersten Sätzen mit 25:22 und 27:25 durch. Im dritten Durchgang blieb der VCO konsequent und vollendete mit 25:20 den 3:0-Auswärtssieg in Dortmund. Die MVP-Auszeichnungen gingen an Frauke Böcker (TV Hörde) und Milla-Sophie Schilling (VCO Dresden)."
     ],
     "videoUrl": "https://www.youtube.com/live/OpYNxohtt9E?si=V-5N7vji5EN6qDE0",
-    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779337845"
+    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779337845",
+    "articleTitle": "Talentschmiede zu Gast in der Festung",
+    "articleOrigin": "TVH"
   },
   {
     "number": 3198,
@@ -914,9 +928,11 @@ const games = [
     "galleryUrl": "https://www.flickr.com/photos/88608964@N07/albums/72177720330563314",
     "videoUrl": "https://www.youtube.com/watch?v=9C5l5mNIDkk",
     "summary": [
-      "Köln führte nach zwei klaren Sätzen bereits 2:0, doch Dresden stabilisierte sich und drehte die Partie mit 25:21 und 25:14. Im Tie-Break blieb der VCO nach dem großen Comeback nervenstark und entschied den fünften Satz knapp mit 15:13 zum 3:2-Auswärtssieg."
+      "Köln führte nach zwei klaren Sätzen bereits 2:0, doch Dresden stabilisierte sich und drehte die Partie mit 25:21 und 25:14. Im Tie-Break blieb der VCO nach dem großen Comeback nervenstark und entschied den fünften Satz knapp mit 15:13 zum 3:2-Auswärtssieg. Die MVP-Auszeichnungen gingen an Annika Stenchly (DSHS SnowTrex Köln) und Johanna Röhner (VCO Dresden)."
     ],
-    "youtubeViews": 2051
+    "youtubeViews": 2051,
+    "articleTitle": "DSHS SnowTrex Köln mit Sieg und Niederlage am Doppelheimspielwochenende",
+    "articleOrigin": "DSK"
   },
   {
     "number": 3202,
@@ -953,10 +969,12 @@ const games = [
     "rankAfter": 9,
     "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779472358",
     "summary": [
-      "Dresden entschied den umkämpften ersten Satz mit 29:27 für sich. Danach spielte Straubing seine Überlegenheit konsequent aus, erhöhte besonders im Aufschlag und Angriff den Druck und gewann die folgenden drei Durchgänge deutlich mit 25:11, 25:13 und 25:19 zum 3:1-Heimsieg."
+      "Dresden entschied den umkämpften ersten Satz mit 29:27 für sich. Danach spielte Straubing seine Überlegenheit konsequent aus, erhöhte besonders im Aufschlag und Angriff den Druck und gewann die folgenden drei Durchgänge deutlich mit 25:11, 25:13 und 25:19 zum 3:1-Heimsieg. Die MVP-Auszeichnungen gingen an Maia Rackel (NawaRo Straubing) und Zoe Albert (VCO Dresden)."
     ],
     "videoUrl": "https://www.youtube.com/live/6k_iE3Cvrk4?si=MGwl6zkUojmUdTxv",
-    "youtubeViews": 1369
+    "youtubeViews": 1369,
+    "articleTitle": "Fünfter Streich in Folge!",
+    "articleOrigin": "STR"
   },
   {
     "number": 3204,
@@ -992,10 +1010,12 @@ const games = [
     ],
     "rankAfter": 7,
     "summary": [
-      "Nach dem 21:25 im ersten Satz stabilisierte Dresden sein Spiel und glich mit 25:20 aus. Den engen dritten Satz gewann der VCO mit 27:25 und machte den 3:1-Auswärtssieg anschließend mit 25:21 perfekt."
+      "Nach dem 21:25 im ersten Satz stabilisierte Dresden sein Spiel und glich mit 25:20 aus. Den engen dritten Satz gewann der VCO mit 27:25 und machte den 3:1-Auswärtssieg anschließend mit 25:21 perfekt. Die MVP-Auszeichnungen gingen an Gesa Brandstrup (Sparkassen Wildcats Stralsund) und Lena Olliges (VCO Dresden)."
     ],
     "videoUrl": "https://www.youtube.com/live/jkfIhbfX7Zk?si=bjvTOrzqFm3CxoG1",
-    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779553826"
+    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779553826",
+    "articleTitle": "Spricht der Heimvorteil für Stralsund?",
+    "articleOrigin": "SWS"
   },
   {
     "number": 3206,
@@ -1030,10 +1050,12 @@ const games = [
     ],
     "rankAfter": 7,
     "summary": [
-      "Dresden kontrollierte die ersten beiden Sätze und gewann sie jeweils mit 25:21. Berlin führte im dritten Durchgang bereits 15:9, doch der VCO erhöhte wieder den Druck, drehte den Satz zum 25:23 und sicherte sich den 3:0-Auswärtssieg."
+      "Dresden kontrollierte die ersten beiden Sätze und gewann sie jeweils mit 25:21. Berlin führte im dritten Durchgang bereits 15:9, doch der VCO erhöhte wieder den Druck, drehte den Satz zum 25:23 und sicherte sich den 3:0-Auswärtssieg. Die MVP-Auszeichnungen gingen an Sophia Minlend (BBSC Berlin) und Esenia Fomenko (VCO Dresden)."
     ],
     "videoUrl": "https://www.youtube.com/live/QbIKyK6vKys?si=lo922THyi4Y4DfE4",
-    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779707597"
+    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779707597",
+    "articleTitle": "BBSC gegen VCO Dresden ohne Erfolg",
+    "articleOrigin": "BER"
   },
   {
     "number": 3196,
@@ -1069,10 +1091,12 @@ const games = [
     ],
     "rankAfter": 4,
     "summary": [
-      "Im Sachsenderby gewann Dresden den ersten Satz mit 25:19, musste danach aber den Ausgleich hinnehmen. Ein umkämpftes 27:25 im dritten Durchgang brachte den VCO wieder in Führung; mit 25:21 machte Dresden den 3:1-Sieg perfekt."
+      "Im Sachsenderby gewann Dresden den ersten Satz mit 25:19, musste danach aber den Ausgleich hinnehmen. Ein umkämpftes 27:25 im dritten Durchgang brachte den VCO wieder in Führung; mit 25:21 machte Dresden den 3:1-Sieg perfekt. Die MVP-Auszeichnungen gingen an Lena Olliges (VCO Dresden) und Emily Langguth (Neuseenland-Volleys Markkleeberg)."
     ],
     "videoUrl": "https://www.youtube.com/live/zc4zA6CpoTk?si=Iu6GjYMr05WqR5Ce",
-    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779750624"
+    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779750624",
+    "articleTitle": "Spektakulärer Derbysieg",
+    "articleOrigin": "VCO"
   },
   {
     "number": 3201,
@@ -1108,10 +1132,12 @@ const games = [
     "rankAfter": 3,
     "videoUrl": "https://www.youtube.com/watch?v=4qbE9sDecPA",
     "summary": [
-      "Dresden setzte Leverkusen von Beginn an unter Druck und gewann die ersten beiden Sätze mit 25:20 und 25:19. Auch im dritten Durchgang blieb der VCO stabil und vollendete mit 25:22 den glatten 3:0-Auswärtssieg."
+      "Dresden setzte Leverkusen von Beginn an unter Druck und gewann die ersten beiden Sätze mit 25:20 und 25:19. Auch im dritten Durchgang blieb der VCO stabil und vollendete mit 25:22 den glatten 3:0-Auswärtssieg. Die MVP-Auszeichnungen gingen an Svenja Enning (BayerVolleys Leverkusen) und Maja Felber (VCO Dresden)."
     ],
     "youtubeViews": 1742,
-    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780084669"
+    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780084669",
+    "articleTitle": "Köln vor schwerer Aufgabe in Dresden",
+    "articleOrigin": "DSK"
   },
   {
     "number": 3199,
@@ -1148,10 +1174,12 @@ const games = [
     "rankAfter": 4,
     "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779774674",
     "summary": [
-      "Oythe gewann den ersten Satz 25:18, ehe Dresden einen engen zweiten Durchgang mit 26:24 zum Ausgleich nutzte. Danach übernahm der VfL wieder die Kontrolle, setzte sich mit 25:17 und 25:15 durch und stoppte mit dem 3:1-Erfolg die Dresdner Siegesserie."
+      "Oythe gewann den ersten Satz 25:18, ehe Dresden einen engen zweiten Durchgang mit 26:24 zum Ausgleich nutzte. Danach übernahm der VfL wieder die Kontrolle, setzte sich mit 25:17 und 25:15 durch und stoppte mit dem 3:1-Erfolg die Dresdner Siegesserie. Die MVP-Auszeichnungen gingen an Georgia McGovern (VfL Oythe) und Lena Olliges (VCO Dresden)."
     ],
     "videoUrl": "https://www.youtube.com/live/LRHf6PeQbZ8?si=TTEEo3wZWm_VYKiO",
-    "youtubeViews": 2218
+    "youtubeViews": 2218,
+    "articleTitle": "Jahresabschluss mit Heim-Doppelpack",
+    "articleOrigin": "OYT"
   },
   {
     "number": 3184,
@@ -1189,9 +1217,11 @@ const games = [
     "articleUrl": "https://www.dshs-snowtrex-koeln.de/ein-sechs-punkte-wochenende-in-sachsen-fuer-dshs-snowtrex-koeln/",
     "videoUrl": "https://www.youtube.com/watch?v=Ok2_wA9qLdc&t=4694s",
     "summary": [
-      "Dresden bestimmte den ersten Satz mit hohem Aufschlagdruck und Präsenz am Netz und gewann 25:17. Ein Kölner Doppelwechsel brachte im zweiten Durchgang die Wende; die Gäste holten den engen Satz 28:26, spielten danach befreiter und brachten den 3:1-Auswärtssieg trotz einer Dresdner Aufholjagd im vierten Satz konzentriert ins Ziel."
+      "Dresden bestimmte den ersten Satz mit hohem Aufschlagdruck und Präsenz am Netz und gewann 25:17. Ein Kölner Doppelwechsel brachte im zweiten Durchgang die Wende; die Gäste holten den engen Satz 28:26, spielten danach befreiter und brachten den 3:1-Auswärtssieg trotz einer Dresdner Aufholjagd im vierten Satz konzentriert ins Ziel. Die MVP-Auszeichnungen gingen an Emilia Schaarschmidt (VCO Dresden) und Hannah Mörke (DSHS SnowTrex Köln)."
     ],
-    "youtubeViews": 1481
+    "youtubeViews": 1481,
+    "articleTitle": "Ein Sechs-Punkte-Wochenende in Sachsen für DSHS SnowTrex Köln",
+    "articleOrigin": "DSK"
   },
   {
     "number": 3192,
@@ -1226,10 +1256,12 @@ const games = [
     ],
     "rankAfter": 6,
     "summary": [
-      "Nach ausgeglichenem Beginn zog Dresden im ersten Satz mit einer starken Aufschlagserie davon und gewann 25:10. Der VCO dominierte auch den zweiten Satz mit 25:14 und behielt im engeren dritten Durchgang bis zum 25:23 die Kontrolle."
+      "Nach ausgeglichenem Beginn zog Dresden im ersten Satz mit einer starken Aufschlagserie davon und gewann 25:10. Der VCO dominierte auch den zweiten Satz mit 25:14 und behielt im engeren dritten Durchgang bis zum 25:23 die Kontrolle. Die MVP-Auszeichnungen gingen an Lena Olliges (VCO Dresden) und Hanna Christin Lengkey (BBSC Berlin)."
     ],
     "videoUrl": "https://www.youtube.com/live/uoAivaJcR-Q?si=k2MqriUS3RLvIqJq",
-    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780142445"
+    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780142445",
+    "articleTitle": "VCO Dresden sichert sich souveränen Sieg",
+    "articleOrigin": "VCO"
   },
   {
     "number": 3209,
@@ -1265,10 +1297,13 @@ const games = [
     ],
     "rankAfter": 6,
     "summary": [
-      "Dresden gewann den Auftaktsatz in Dingolfing mit 25:18, musste nach einem 20:25 aber den Ausgleich hinnehmen. Danach dominierte der VCO mit 25:13 und 25:14 und nahm mit dem 3:1-Erfolg drei Punkte mit."
+      "Dresden gewann den Auftaktsatz in Dingolfing mit 25:18, musste nach einem 20:25 aber den Ausgleich hinnehmen. Danach dominierte der VCO mit 25:13 und 25:14 und nahm mit dem 3:1-Erfolg drei Punkte mit. Die MVP-Auszeichnungen gingen an Franziska Koob (TV Dingolfing) und Johanna Röhner (VCO Dresden)."
     ],
     "videoUrl": "https://www.youtube.com/live/zphQgCEukqw?si=qHFvzBHPyvzmgP5L",
-    "articleUrl": "https://women.volleybox.net/tv-dingolfing-vco-dresden-c314819"
+    "articleUrl": "https://women.volleybox.net/tv-dingolfing-vco-dresden-c314819",
+    "articleTitle": "TV Dingolfing gegen VCO Dresden",
+    "articleOrigin": "TVD",
+    "statsUnavailable": true
   },
   {
     "number": 3200,
@@ -1306,10 +1341,12 @@ const games = [
     "rankAfter": 5,
     "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780216656",
     "summary": [
-      "Dresden gewann den ausgeglichenen Auftaktsatz 25:22, während Planegg im zweiten Durchgang mit stabiler Abwehr klar antwortete. Nach dem knappen 23:25 erzwang der VCO mit einem starken 25:16 den Tie-Break, holte dort einen frühen Rückstand beinahe auf, musste sich aber 13:15 und insgesamt 2:3 geschlagen geben."
+      "Dresden gewann den ausgeglichenen Auftaktsatz 25:22, während Planegg im zweiten Durchgang mit stabiler Abwehr klar antwortete. Nach dem knappen 23:25 erzwang der VCO mit einem starken 25:16 den Tie-Break, holte dort einen frühen Rückstand beinahe auf, musste sich aber 13:15 und insgesamt 2:3 geschlagen geben. Die MVP-Auszeichnungen gingen an Elisabeth Kettenbach (TV Planegg-Krailling) und Zoe Albert (VCO Dresden)."
     ],
     "videoUrl": "https://www.youtube.com/live/ehyu1eW9vmQ?si=d96MMdX1eBh6X5jV",
-    "youtubeViews": 1263
+    "youtubeViews": 1263,
+    "articleTitle": "Unglückliche 2:3 Niederlage des VCO",
+    "articleOrigin": "VCO"
   },
   {
     "number": 3188,
@@ -1346,10 +1383,12 @@ const games = [
     "rankAfter": 5,
     "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780313502",
     "summary": [
-      "Dresden gewann einen hochklassigen ersten Satz mit variablem Angriffsspiel und starkem Aufschlag 25:19. Straubing antwortete deutlich mit 25:12, entschied den engen dritten Durchgang 25:23 und setzte sich anschließend mit stabiler Blockarbeit im vierten Satz 25:18 zum 3:1-Auswärtssieg durch."
+      "Dresden gewann einen hochklassigen ersten Satz mit variablem Angriffsspiel und starkem Aufschlag 25:19. Straubing antwortete deutlich mit 25:12, entschied den engen dritten Durchgang 25:23 und setzte sich anschließend mit stabiler Blockarbeit im vierten Satz 25:18 zum 3:1-Auswärtssieg durch. Die MVP-Auszeichnungen gingen an Jette Hippel (VCO Dresden) und Delaney Elizabeth Hogan (NawaRo Straubing)."
     ],
     "videoUrl": "https://www.youtube.com/live/gegbzNtsa8c?si=kph__Bc1EAaqqqe5",
-    "youtubeViews": 1404
+    "youtubeViews": 1404,
+    "articleTitle": "Spannendes Spitzenspiel",
+    "articleOrigin": "VCO"
   },
   {
     "number": 3193,
@@ -1386,10 +1425,13 @@ const games = [
     ],
     "rankAfter": 5,
     "summary": [
-      "Dresden gewann den ersten Satz klar, verlor danach aber den Rhythmus und geriet mit 1:2 nach Sätzen in Rückstand. Mit Umstellungen stabilisierte sich der VCO, erzwang den Tie-Break und entschied diesen mit 15:10 zum 3:2-Heimsieg."
+      "Dresden gewann den ersten Satz klar, verlor danach aber den Rhythmus und geriet mit 1:2 nach Sätzen in Rückstand. Mit Umstellungen stabilisierte sich der VCO, erzwang den Tie-Break und entschied diesen mit 15:10 zum 3:2-Heimsieg. Die MVP-Auszeichnungen gingen an Jette Hippel (VCO Dresden) und Emma Neukirchen (TV Hörde)."
     ],
     "videoUrl": "https://www.youtube.com/live/frThIXe_Q3c?si=Npgm5_tpech4Lc_m",
-    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780313519"
+    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780313519",
+    "articleTitle": "VCO gewinnt gegen Hörde",
+    "articleOrigin": "VCO",
+    "statsUnavailable": true
   },
   {
     "number": 3183,
@@ -1425,10 +1467,12 @@ const games = [
     ],
     "rankAfter": 5,
     "summary": [
-      "Nach einem 25:20 zum Auftakt glich Waldgirmes mit 25:21 aus. Dresden drehte im dritten Satz einen deutlichen Rückstand noch zum 26:24 und spielte den vierten Durchgang anschließend kontrolliert zum 25:23 und 3:1-Heimsieg zu Ende."
+      "Nach einem 25:20 zum Auftakt glich Waldgirmes mit 25:21 aus. Dresden drehte im dritten Satz einen deutlichen Rückstand noch zum 26:24 und spielte den vierten Durchgang anschließend kontrolliert zum 25:23 und 3:1-Heimsieg zu Ende. Die MVP-Auszeichnungen gingen an Jette Hippel (VCO Dresden) und Yva Cesar (TV Waldgirmes)."
     ],
     "videoUrl": "https://www.youtube.com/live/Vm6rasmd99Y?si=uLMpf8_1DUzlumFb",
-    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780403317"
+    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780403317",
+    "articleTitle": "VCO Dresden gewinnt 3:1 gegen Waldgirmes",
+    "articleOrigin": "VCO"
   },
   {
     "number": 3208,
@@ -1464,10 +1508,12 @@ const games = [
     "rankAfter": 5,
     "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780468170",
     "summary": [
-      "Vilsbiburg setzte Dresden von Beginn an mit starken Aufschlägen und konsequenter Blockarbeit unter Druck und gewann den ersten Satz in nur 16 Minuten 25:11. Im zweiten Durchgang hielt der VCO länger dagegen, doch die Raben entschieden die Schlussphase mit zwei Blocks; auch im dritten Satz blieben sie souverän und vollendeten nach 56 Minuten das 3:0."
+      "Vilsbiburg setzte Dresden von Beginn an mit starken Aufschlägen und konsequenter Blockarbeit unter Druck und gewann den ersten Satz in nur 16 Minuten 25:11. Im zweiten Durchgang hielt der VCO länger dagegen, doch die Raben entschieden die Schlussphase mit zwei Blocks; auch im dritten Satz blieben sie souverän und vollendeten nach 56 Minuten das 3:0. Die MVP-Auszeichnungen gingen an Anne Marie Hatch (Rote Raben Vilsbiburg) und Zoe Albert (VCO Dresden)."
     ],
     "videoUrl": "https://www.youtube.com/live/HIaulpJkzcY?si=i75dTgYYJRwZ_tib",
-    "youtubeViews": 2001
+    "youtubeViews": 2001,
+    "articleTitle": "Rote Raben siegen souverän gegen VCO",
+    "articleOrigin": "RRV"
   },
   {
     "number": 3190,
@@ -1502,10 +1548,12 @@ const games = [
     ],
     "rankAfter": 5,
     "summary": [
-      "Vor rund 600 Zuschauern gewann Dresden trotz mehrerer Nationalmannschaftsabstellungen mit 3:0. Die ersten beiden Sätze blieben lange eng, ehe der VCO jeweils die Schlussphase beherrschte; im dritten Durchgang setzte sich Dresden ab der Satzmitte klarer durch."
+      "Vor rund 600 Zuschauern gewann Dresden trotz mehrerer Nationalmannschaftsabstellungen mit 3:0. Die ersten beiden Sätze blieben lange eng, ehe der VCO jeweils die Schlussphase beherrschte; im dritten Durchgang setzte sich Dresden ab der Satzmitte klarer durch. Die MVP-Auszeichnungen gingen an Lena Olliges (VCO Dresden) und Amelie Grawert (Sparkassen Wildcats Stralsund)."
     ],
     "videoUrl": "https://www.youtube.com/live/jt0_nVokeSw?si=9hvzonxvQHacgZdT",
-    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780581484"
+    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780581484",
+    "articleTitle": "VCO Dresden feiert 3:0 Erfolg",
+    "articleOrigin": "VCO"
   },
   {
     "number": 3187,
@@ -1543,9 +1591,12 @@ const games = [
     "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780588221",
     "videoUrl": "https://www.youtube.com/watch?v=0z3HJ2ygdMQ",
     "summary": [
-      "Dresden startete stark und gewann den ersten Satz 25:18. Leverkusen blieb ruhig, erhöhte den Druck und nutzte seine Angriffe anschließend konsequenter; mit drei klaren Satzgewinnen zu 16, 18 und 18 drehten die BayerVolleys die Partie und schlossen ihr erfolgreiches Auswärtswochenende mit einem 3:1 ab."
+      "Dresden startete stark und gewann den ersten Satz 25:18. Leverkusen blieb ruhig, erhöhte den Druck und nutzte seine Angriffe anschließend konsequenter; mit drei klaren Satzgewinnen zu 16, 18 und 18 drehten die BayerVolleys die Partie und schlossen ihr erfolgreiches Auswärtswochenende mit einem 3:1 ab. Die MVP-Auszeichnungen gingen an Emilia Schaarschmidt (VCO Dresden) und Marian Mischo (BayerVolleys Leverkusen)."
     ],
-    "youtubeViews": 977
+    "youtubeViews": 977,
+    "articleTitle": "Marian Mischo führt Volleys zu zwei Siegen",
+    "articleOrigin": "BVL",
+    "statsUnavailable": true
   },
   {
     "number": 3210,
@@ -1580,10 +1631,12 @@ const games = [
     ],
     "rankAfter": 5,
     "summary": [
-      "Dresden setzte sich im ersten Satz ab der Anfangsphase ab und gewann 25:21. Markkleeberg glich im zweiten Satz noch zum 23:23 aus, doch der VCO holte die entscheidenden Punkte und dominierte anschließend den dritten Durchgang mit 25:14."
+      "Dresden setzte sich im ersten Satz ab der Anfangsphase ab und gewann 25:21. Markkleeberg glich im zweiten Satz noch zum 23:23 aus, doch der VCO holte die entscheidenden Punkte und dominierte anschließend den dritten Durchgang mit 25:14. Die MVP-Auszeichnungen gingen an Emily Langguth (Neuseenland-Volleys Markkleeberg) und Esenia Fomenko (VCO Dresden)."
     ],
     "videoUrl": "https://www.youtube.com/live/IJzx7DRGS9E?si=UgCkw9GF6XIqeONa",
-    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780755888"
+    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780755888",
+    "articleTitle": "(Zu)starke DSC-Talente",
+    "articleOrigin": "NVM"
   },
   {
     "number": 3191,
@@ -1618,10 +1671,12 @@ const games = [
     ],
     "rankAfter": 5,
     "summary": [
-      "Trotz sieben Abstellungen für einen Nationalmannschaftslehrgang trat Dresden im Sachsenderby geschlossen auf. Nach dem klaren 25:12 kontrollierte der VCO auch den zweiten Satz und entschied den engeren dritten Durchgang mit einem Block zum 25:21."
+      "Trotz sieben Abstellungen für einen Nationalmannschaftslehrgang trat Dresden im Sachsenderby geschlossen auf. Nach dem klaren 25:12 kontrollierte der VCO auch den zweiten Satz und entschied den engeren dritten Durchgang mit einem Block zum 25:21. Die MVP-Auszeichnungen gingen an Zoe Albert (VCO Dresden) und Sophie Dreblow (ESA Grimma Volleys)."
     ],
     "videoUrl": "https://www.youtube.com/live/fcH49xt8wx4?si=MqOKyr1z__rsoxUd",
-    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780944030"
+    "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780944030",
+    "articleTitle": "VCO Dresden gewinnt 3:0 gegen ESA Grimma",
+    "articleOrigin": "VCO"
   },
   {
     "number": 3203,
@@ -1658,10 +1713,13 @@ const games = [
     "rankAfter": 5,
     "videoUrl": "https://www.youtube.com/watch?v=LKSHHuIzHec&pp=ygUuRFlOIEVpbnRyYWNodCBTcG9udGVudCBEw7xzc2VsZG9yZiBWQ08gRHJlc2Rlbg%3D%3D",
     "summary": [
-      "Dresden bestimmte die ersten beiden Sätze und gewann jeweils mit 25:19. Düsseldorf verkürzte mit 25:20, doch der VCO behielt im umkämpften vierten Durchgang die Nerven und sicherte sich mit 26:24 den 3:1-Auswärtssieg."
+      "Dresden bestimmte die ersten beiden Sätze und gewann jeweils mit 25:19. Düsseldorf verkürzte mit 25:20, doch der VCO behielt im umkämpften vierten Durchgang die Nerven und sicherte sich mit 26:24 den 3:1-Auswärtssieg. Die MVP-Auszeichnungen gingen an Carlotta Strube (Eintracht Spontent Düsseldorf) und Lena Olliges (VCO Dresden)."
     ],
     "youtubeViews": 2041,
-    "articleUrl": "https://women.volleybox.net/eintracht-spontent-dusseldorf-vco-dresden-c314830"
+    "articleUrl": "https://women.volleybox.net/eintracht-spontent-dusseldorf-vco-dresden-c314830",
+    "articleTitle": "Eintracht Spontent Düsseldorf gegen VCO Dresden",
+    "articleOrigin": "ESD",
+    "statsUnavailable": true
   },
   {
     "number": 3185,
@@ -1699,10 +1757,12 @@ const games = [
     "rankAfter": 5,
     "articleUrl": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=781304355",
     "summary": [
-      "Dresden gewann beim letzten Heimspiel den ersten Satz 25:19 und holte sich nach Oythes knappem Ausgleich auch den dritten Durchgang klar 25:16. Der VfL erzwang mit 25:19 den Tie-Break und setzte sich dort 15:7 durch; trotz der 2:3-Niederlage verabschiedete sich der VCO mit einer kämpferischen Leistung von seinem Heimpublikum."
+      "Dresden gewann beim letzten Heimspiel den ersten Satz 25:19 und holte sich nach Oythes knappem Ausgleich auch den dritten Durchgang klar 25:16. Der VfL erzwang mit 25:19 den Tie-Break und setzte sich dort 15:7 durch; trotz der 2:3-Niederlage verabschiedete sich der VCO mit einer kämpferischen Leistung von seinem Heimpublikum. Die MVP-Auszeichnungen gingen an Zoe Albert (VCO Dresden) und Mariele Meyer (VfL Oythe)."
     ],
     "videoUrl": "https://www.youtube.com/live/DhxtRl6W5HE?si=5LP4mwm1nWmej7Ho",
-    "youtubeViews": 839
+    "youtubeViews": 839,
+    "articleTitle": "Emotionaler Heimabschluss",
+    "articleOrigin": "VCO"
   }
 ];
 

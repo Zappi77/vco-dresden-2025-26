@@ -15,30 +15,30 @@ const filterButtons = document.querySelectorAll(".filter-button");
 
 const focusTeam = "VCO Dresden";
 
-function isKoelnWin(game) {
+function isFocusTeamWin(game) {
   const [homeSets, awaySets] = game.score.split(":").map(Number);
   return game.home === focusTeam ? homeSets > awaySets : awaySets > homeSets;
 }
 
-function koelnSets(game) {
+function focusTeamSets(game) {
   const [homeSets, awaySets] = game.score.split(":").map(Number);
   return game.home === focusTeam ? { own: homeSets, opponent: awaySets } : { own: awaySets, opponent: homeSets };
 }
 
-function koelnPoints(game) {
-  const sets = koelnSets(game);
+function focusTeamPoints(game) {
+  const sets = focusTeamSets(game);
   if (sets.own === 3 && sets.opponent <= 1) return 3;
   if (sets.own === 3 && sets.opponent === 2) return 2;
   if (sets.own === 2 && sets.opponent === 3) return 1;
   return 0;
 }
 
-function koelnScore(game) {
-  const sets = koelnSets(game);
+function focusTeamScore(game) {
+  const sets = focusTeamSets(game);
   return `${sets.own}:${sets.opponent}`;
 }
 
-function koelnBallPoints(game) {
+function focusTeamBallPoints(game) {
   const [homePoints, awayPoints] = game.ballPoints.split(":").map(Number);
   return game.home === focusTeam ? { own: homePoints, opponent: awayPoints } : { own: awayPoints, opponent: homePoints };
 }
@@ -148,14 +148,14 @@ function renderCards(filter = "all") {
     .filter(game => {
       if (filter === "home") return game.home === focusTeam;
       if (filter === "away") return game.away === focusTeam;
-      if (filter === "win") return isKoelnWin(game);
-      if (filter === "loss") return !isKoelnWin(game);
+      if (filter === "win") return isFocusTeamWin(game);
+      if (filter === "loss") return !isFocusTeamWin(game);
       return true;
     })
     .forEach(game => {
       const node = template.content.cloneNode(true);
       const card = node.querySelector(".game-card");
-      const won = isKoelnWin(game);
+      const won = isFocusTeamWin(game);
 
       card.classList.add(won ? "win" : "loss");
       card.dataset.homeAway = game.home === focusTeam ? "home" : "away";
@@ -191,14 +191,41 @@ function renderCards(filter = "all") {
       });
 
       const detailUrl = `https://www.volleyball-bundesliga.de/popup/matchSeries/matchDetails.xhtml?matchId=${game.matchId}`;
-      const statsUrl = game.statsUrl || `https://live.volleyball-bundesliga.de/2025-26/Women/${game.number}.pdf`;
+      const officialReportUrl = game.statsUrl;
+      const statsUrl = `https://live.volleyball-bundesliga.de/2025-26/Women/${game.number}.pdf`;
       node.querySelector(".detail-link").href = detailUrl;
-      node.querySelector(".stats-link").href = statsUrl;
+      node.querySelector(".official-report-link").href = officialReportUrl;
+      const statsLink = node.querySelector(".stats-link");
+      if (game.statsUnavailable) {
+        statsLink.removeAttribute("href");
+        statsLink.classList.add("disabled");
+        statsLink.textContent = "Spielstatistik nicht verfügbar";
+      } else {
+        statsLink.href = statsUrl;
+      }
 
-      const articleLink = node.querySelector(".article-link");
+      const articleLinks = node.querySelector(".article-links");
       if (game.articleUrl) {
-        articleLink.href = game.articleUrl;
-        articleLink.classList.remove("disabled");
+        const link = document.createElement("a");
+        const originCode = game.articleOrigin || "VCO";
+        const originBadge = Object.values(teamBadges).find((badge) => badge.short === originCode);
+        const origin = document.createElement("span");
+        const title = document.createElement("span");
+        link.className = "article-chip";
+        link.href = game.articleUrl;
+        link.target = "_blank";
+        link.rel = "noreferrer";
+        link.setAttribute("aria-label", `${originCode}: ${game.articleTitle || "Spielbericht zum Spiel"}`);
+        origin.className = "article-origin";
+        origin.textContent = originCode;
+        if (originBadge) {
+          origin.style.backgroundColor = originBadge.color;
+          origin.style.color = originBadge.text;
+        }
+        title.className = "article-title";
+        title.textContent = game.articleTitle || "Spielbericht zum Spiel";
+        link.append(origin, title);
+        articleLinks.append(link);
       }
 
       const videoLink = node.querySelector(".video-link");
@@ -236,8 +263,8 @@ function renderPointsChain() {
   let totalPoints = 0;
 
   games.forEach((game, index) => {
-    const points = koelnPoints(game);
-    const score = koelnScore(game);
+    const points = focusTeamPoints(game);
+    const score = focusTeamScore(game);
     const opponent = opponentInfo(game);
     totalPoints += points;
 
@@ -366,7 +393,7 @@ function renderRankChart() {
     const titleNode = make("title");
     titleNode.textContent = `Spieltag ${index + 1}, #${game.number}: ${game.rankAfter}. Platz nach ${game.home} ${game.score} ${game.away}`;
     const circle = make("circle", {
-      class: isKoelnWin(game) ? "rank-point rank-point-win" : "rank-point rank-point-loss",
+      class: isFocusTeamWin(game) ? "rank-point rank-point-win" : "rank-point rank-point-loss",
       cx: xFor(index),
       cy: yFor(game.rankAfter),
       r: 5
@@ -580,10 +607,10 @@ function seasonStats(filteredGames = games) {
   const scoreCounts = { "3:0": 0, "3:1": 0, "3:2": 0, "2:3": 0, "1:3": 0, "0:3": 0 };
 
   return filteredGames.reduce((stats, game) => {
-    const sets = koelnSets(game);
+    const sets = focusTeamSets(game);
     const score = `${sets.own}:${sets.opponent}`;
-    const ballPoints = koelnBallPoints(game);
-    const points = koelnPoints(game);
+    const ballPoints = focusTeamBallPoints(game);
+    const points = focusTeamPoints(game);
     const isWin = sets.own > sets.opponent;
     const isFiveSet = sets.own + sets.opponent === 5;
 
@@ -687,11 +714,11 @@ function renderSeasonStatsSwitcher() {
   });
 }
 
-function koelnMvpStats() {
+function focusTeamMvpStats() {
   const statsByPlayer = new Map();
 
   games.forEach((game) => {
-    const won = isKoelnWin(game);
+    const won = isFocusTeamWin(game);
     (game.mvps || [])
       .filter((mvp) => mvp.team === focusTeam)
       .forEach((mvp) => {
@@ -710,8 +737,8 @@ function koelnMvpStats() {
   ));
 }
 
-function renderKoelnMvps() {
-  const rows = koelnMvpStats();
+function renderFocusTeamMvps() {
+  const rows = focusTeamMvpStats();
   focusMvpsListEl.innerHTML = "";
 
   rows.forEach((row, index) => {
@@ -849,5 +876,5 @@ renderFinalStandings();
 renderCrossTable();
 renderSeasonStatsSwitcher();
 renderSeasonStats();
-renderKoelnMvps();
+renderFocusTeamMvps();
 renderYoutubeViews();
